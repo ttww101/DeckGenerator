@@ -16,7 +16,18 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
+    if (![userDefault boolForKey:@"isFirstLaunch"]) {
+        [userDefault setBool:NO forKey:@"buyPro"];
+        [userDefault setBool:NO forKey:@"useRule"];
+        [userDefault setBool:YES forKey:@"isFirstLaunch"];
+        [userDefault setFloat:7.0 forKey:@"arena"];
+        [userDefault setFloat:3.0 forKey:@"minCost"];
+        [userDefault setFloat:5.0 forKey:@"maxCost"];
+        [userDefault setInteger:0 forKey:@"generateCount"];
+    }
+    
     return YES;
 }
 

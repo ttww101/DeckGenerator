@@ -7,25 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF4860331D21AD0400D4F555 /* cninfo.json in Resources */ = {isa = PBXBuildFile; fileRef = AF4860321D21AD0400D4F555 /* cninfo.json */; };
+		AF4860391D21AF6400D4F555 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4860381D21AF6400D4F555 /* SettingViewController.m */; };
+		AF4860711D21B43F00D4F555 /* archer.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48603B1D21B43F00D4F555 /* archer.png */; };
+		AF4860721D21B43F00D4F555 /* arrows.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48603C1D21B43F00D4F555 /* arrows.png */; };
+		AF4860731D21B43F00D4F555 /* baby-dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48603D1D21B43F00D4F555 /* baby-dragon.png */; };
+		AF4860741D21B43F00D4F555 /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48603E1D21B43F00D4F555 /* balloon.png */; };
+		AF4860751D21B43F00D4F555 /* barbarian-hut.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48603F1D21B43F00D4F555 /* barbarian-hut.png */; };
+		AF4860761D21B43F00D4F555 /* barbarians.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860401D21B43F00D4F555 /* barbarians.png */; };
+		AF4860771D21B43F00D4F555 /* bomb-tower.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860411D21B43F00D4F555 /* bomb-tower.png */; };
+		AF4860781D21B43F00D4F555 /* bomber.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860421D21B43F00D4F555 /* bomber.png */; };
+		AF4860791D21B43F00D4F555 /* cannon.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860431D21B43F00D4F555 /* cannon.png */; };
+		AF48607A1D21B43F00D4F555 /* clash-royale-skeleton-army.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860441D21B43F00D4F555 /* clash-royale-skeleton-army.png */; };
+		AF48607B1D21B43F00D4F555 /* dark-prince.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860451D21B43F00D4F555 /* dark-prince.png */; };
+		AF48607C1D21B43F00D4F555 /* elixir-collector.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860461D21B43F00D4F555 /* elixir-collector.png */; };
+		AF48607D1D21B43F00D4F555 /* fire-spirits.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860471D21B43F00D4F555 /* fire-spirits.png */; };
+		AF48607E1D21B43F00D4F555 /* fireball.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860481D21B43F00D4F555 /* fireball.png */; };
+		AF48607F1D21B43F00D4F555 /* freeze.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860491D21B43F00D4F555 /* freeze.png */; };
+		AF4860801D21B43F00D4F555 /* furnace.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48604A1D21B43F00D4F555 /* furnace.png */; };
+		AF4860811D21B43F00D4F555 /* giant-skeleton.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48604B1D21B43F00D4F555 /* giant-skeleton.png */; };
+		AF4860821D21B43F00D4F555 /* giant.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48604C1D21B43F00D4F555 /* giant.png */; };
+		AF4860831D21B43F00D4F555 /* goblin-barrel.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48604D1D21B43F00D4F555 /* goblin-barrel.png */; };
+		AF4860841D21B43F00D4F555 /* goblin-hut.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48604E1D21B43F00D4F555 /* goblin-hut.png */; };
+		AF4860851D21B43F00D4F555 /* goblins.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48604F1D21B43F00D4F555 /* goblins.png */; };
+		AF4860861D21B43F00D4F555 /* golem.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860501D21B43F00D4F555 /* golem.png */; };
+		AF4860871D21B43F00D4F555 /* guards.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860511D21B43F00D4F555 /* guards.png */; };
+		AF4860881D21B43F00D4F555 /* hog-rider.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860521D21B43F00D4F555 /* hog-rider.png */; };
+		AF4860891D21B43F00D4F555 /* ice-wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860531D21B43F00D4F555 /* ice-wizard.png */; };
+		AF48608A1D21B43F00D4F555 /* inferno-tower.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860541D21B43F00D4F555 /* inferno-tower.png */; };
+		AF48608B1D21B43F00D4F555 /* knight.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860551D21B43F00D4F555 /* knight.png */; };
+		AF48608C1D21B43F00D4F555 /* lava-hound.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860561D21B43F00D4F555 /* lava-hound.png */; };
+		AF48608D1D21B43F00D4F555 /* lightning.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860571D21B43F00D4F555 /* lightning.png */; };
+		AF48608E1D21B43F00D4F555 /* miner.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860581D21B43F00D4F555 /* miner.png */; };
+		AF48608F1D21B43F00D4F555 /* mini-p-e-k-k-a.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860591D21B43F00D4F555 /* mini-p-e-k-k-a.png */; };
+		AF4860901D21B43F00D4F555 /* minion-horde.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48605A1D21B43F00D4F555 /* minion-horde.png */; };
+		AF4860911D21B43F00D4F555 /* minions.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48605B1D21B43F00D4F555 /* minions.png */; };
+		AF4860921D21B43F00D4F555 /* mirror.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48605C1D21B43F00D4F555 /* mirror.png */; };
+		AF4860931D21B43F00D4F555 /* mortar.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48605D1D21B43F00D4F555 /* mortar.png */; };
+		AF4860941D21B43F00D4F555 /* musketeer.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48605E1D21B43F00D4F555 /* musketeer.png */; };
+		AF4860951D21B43F00D4F555 /* p-e-k-k-a.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48605F1D21B43F00D4F555 /* p-e-k-k-a.png */; };
+		AF4860961D21B43F00D4F555 /* poison.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860601D21B43F00D4F555 /* poison.png */; };
+		AF4860971D21B43F00D4F555 /* prince.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860611D21B43F00D4F555 /* prince.png */; };
+		AF4860981D21B43F00D4F555 /* princess.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860621D21B43F00D4F555 /* princess.png */; };
+		AF4860991D21B43F00D4F555 /* rage.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860631D21B43F00D4F555 /* rage.png */; };
+		AF48609A1D21B43F00D4F555 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860641D21B43F00D4F555 /* rocket.png */; };
+		AF48609B1D21B43F00D4F555 /* royal-giant.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860651D21B43F00D4F555 /* royal-giant.png */; };
+		AF48609C1D21B43F00D4F555 /* skeletons.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860661D21B43F00D4F555 /* skeletons.png */; };
+		AF48609D1D21B43F00D4F555 /* sparky.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860671D21B43F00D4F555 /* sparky.png */; };
+		AF48609E1D21B43F00D4F555 /* spear-goblin.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860681D21B43F00D4F555 /* spear-goblin.png */; };
+		AF48609F1D21B43F00D4F555 /* tesla.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860691D21B43F00D4F555 /* tesla.png */; };
+		AF4860A01D21B43F00D4F555 /* three-musketeers.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48606A1D21B43F00D4F555 /* three-musketeers.png */; };
+		AF4860A11D21B43F00D4F555 /* tombstone.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48606B1D21B43F00D4F555 /* tombstone.png */; };
+		AF4860A21D21B43F00D4F555 /* valkyrie.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48606C1D21B43F00D4F555 /* valkyrie.png */; };
+		AF4860A31D21B43F00D4F555 /* witch.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48606D1D21B43F00D4F555 /* witch.png */; };
+		AF4860A41D21B43F00D4F555 /* wizard.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48606E1D21B43F00D4F555 /* wizard.png */; };
+		AF4860A51D21B43F00D4F555 /* x-bow.png in Resources */ = {isa = PBXBuildFile; fileRef = AF48606F1D21B43F00D4F555 /* x-bow.png */; };
+		AF4860A61D21B43F00D4F555 /* zap.png in Resources */ = {isa = PBXBuildFile; fileRef = AF4860701D21B43F00D4F555 /* zap.png */; };
+		AF4860A81D21CF3300D4F555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4860A71D21CF3300D4F555 /* Assets.xcassets */; };
+		AF4860AA1D21D08F00D4F555 /* footer.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF4860A91D21D08F00D4F555 /* footer.xib */; };
+		AF4860AD1D21D17A00D4F555 /* Footer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4860AC1D21D17A00D4F555 /* Footer.m */; };
+		AF4860AF1D2229B300D4F555 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4860AE1D2229B300D4F555 /* StoreKit.framework */; };
 		AF84D8A81D214334006C9912 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84D8A71D214334006C9912 /* main.m */; };
 		AF84D8AB1D214334006C9912 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84D8AA1D214334006C9912 /* AppDelegate.m */; };
-		AF84D8AE1D214334006C9912 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84D8AD1D214334006C9912 /* ViewController.m */; };
 		AF84D8B11D214334006C9912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF84D8AF1D214334006C9912 /* Main.storyboard */; };
-		AF84D8B31D214334006C9912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF84D8B21D214334006C9912 /* Assets.xcassets */; };
 		AF84D8B61D214334006C9912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF84D8B41D214334006C9912 /* LaunchScreen.storyboard */; };
+		AF84D8C21D214B77006C9912 /* Card.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AF84D8C01D214B77006C9912 /* Card.xcdatamodeld */; };
+		AF84D8C41D214C53006C9912 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF84D8C31D214C53006C9912 /* libsqlite3.tbd */; };
+		AF84D8C51D21509B006C9912 /* clashRoyale.db in Resources */ = {isa = PBXBuildFile; fileRef = AF84D8BF1D21495D006C9912 /* clashRoyale.db */; };
+		AF84D8C81D2150FB006C9912 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84D8C71D2150FB006C9912 /* TableViewController.m */; };
+		AF84D8CB1D215343006C9912 /* CardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84D8CA1D215343006C9912 /* CardModel.m */; };
+		AF84D8D01D219FE8006C9912 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF84D8CF1D219FE8006C9912 /* CardCell.m */; };
+		AF84D8D41D21A9F3006C9912 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF84D8D31D21A9F3006C9912 /* CardCell.xib */; };
+		AFC3B5001D225AA500F0EE06 /* info.json in Resources */ = {isa = PBXBuildFile; fileRef = AFC3B4FF1D225AA500F0EE06 /* info.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AF4860321D21AD0400D4F555 /* cninfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cninfo.json; sourceTree = "<group>"; };
+		AF4860371D21AF6400D4F555 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingViewController.h; path = ../SettingViewController.h; sourceTree = "<group>"; };
+		AF4860381D21AF6400D4F555 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingViewController.m; path = ../SettingViewController.m; sourceTree = "<group>"; };
+		AF48603B1D21B43F00D4F555 /* archer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = archer.png; sourceTree = "<group>"; };
+		AF48603C1D21B43F00D4F555 /* arrows.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrows.png; sourceTree = "<group>"; };
+		AF48603D1D21B43F00D4F555 /* baby-dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baby-dragon.png"; sourceTree = "<group>"; };
+		AF48603E1D21B43F00D4F555 /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = balloon.png; sourceTree = "<group>"; };
+		AF48603F1D21B43F00D4F555 /* barbarian-hut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbarian-hut.png"; sourceTree = "<group>"; };
+		AF4860401D21B43F00D4F555 /* barbarians.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbarians.png; sourceTree = "<group>"; };
+		AF4860411D21B43F00D4F555 /* bomb-tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bomb-tower.png"; sourceTree = "<group>"; };
+		AF4860421D21B43F00D4F555 /* bomber.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomber.png; sourceTree = "<group>"; };
+		AF4860431D21B43F00D4F555 /* cannon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cannon.png; sourceTree = "<group>"; };
+		AF4860441D21B43F00D4F555 /* clash-royale-skeleton-army.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clash-royale-skeleton-army.png"; sourceTree = "<group>"; };
+		AF4860451D21B43F00D4F555 /* dark-prince.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dark-prince.png"; sourceTree = "<group>"; };
+		AF4860461D21B43F00D4F555 /* elixir-collector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "elixir-collector.png"; sourceTree = "<group>"; };
+		AF4860471D21B43F00D4F555 /* fire-spirits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fire-spirits.png"; sourceTree = "<group>"; };
+		AF4860481D21B43F00D4F555 /* fireball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fireball.png; sourceTree = "<group>"; };
+		AF4860491D21B43F00D4F555 /* freeze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = freeze.png; sourceTree = "<group>"; };
+		AF48604A1D21B43F00D4F555 /* furnace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = furnace.png; sourceTree = "<group>"; };
+		AF48604B1D21B43F00D4F555 /* giant-skeleton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "giant-skeleton.png"; sourceTree = "<group>"; };
+		AF48604C1D21B43F00D4F555 /* giant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = giant.png; sourceTree = "<group>"; };
+		AF48604D1D21B43F00D4F555 /* goblin-barrel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goblin-barrel.png"; sourceTree = "<group>"; };
+		AF48604E1D21B43F00D4F555 /* goblin-hut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "goblin-hut.png"; sourceTree = "<group>"; };
+		AF48604F1D21B43F00D4F555 /* goblins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goblins.png; sourceTree = "<group>"; };
+		AF4860501D21B43F00D4F555 /* golem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = golem.png; sourceTree = "<group>"; };
+		AF4860511D21B43F00D4F555 /* guards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guards.png; sourceTree = "<group>"; };
+		AF4860521D21B43F00D4F555 /* hog-rider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hog-rider.png"; sourceTree = "<group>"; };
+		AF4860531D21B43F00D4F555 /* ice-wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ice-wizard.png"; sourceTree = "<group>"; };
+		AF4860541D21B43F00D4F555 /* inferno-tower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inferno-tower.png"; sourceTree = "<group>"; };
+		AF4860551D21B43F00D4F555 /* knight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knight.png; sourceTree = "<group>"; };
+		AF4860561D21B43F00D4F555 /* lava-hound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lava-hound.png"; sourceTree = "<group>"; };
+		AF4860571D21B43F00D4F555 /* lightning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightning.png; sourceTree = "<group>"; };
+		AF4860581D21B43F00D4F555 /* miner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miner.png; sourceTree = "<group>"; };
+		AF4860591D21B43F00D4F555 /* mini-p-e-k-k-a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mini-p-e-k-k-a.png"; sourceTree = "<group>"; };
+		AF48605A1D21B43F00D4F555 /* minion-horde.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minion-horde.png"; sourceTree = "<group>"; };
+		AF48605B1D21B43F00D4F555 /* minions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minions.png; sourceTree = "<group>"; };
+		AF48605C1D21B43F00D4F555 /* mirror.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mirror.png; sourceTree = "<group>"; };
+		AF48605D1D21B43F00D4F555 /* mortar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mortar.png; sourceTree = "<group>"; };
+		AF48605E1D21B43F00D4F555 /* musketeer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musketeer.png; sourceTree = "<group>"; };
+		AF48605F1D21B43F00D4F555 /* p-e-k-k-a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "p-e-k-k-a.png"; sourceTree = "<group>"; };
+		AF4860601D21B43F00D4F555 /* poison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poison.png; sourceTree = "<group>"; };
+		AF4860611D21B43F00D4F555 /* prince.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prince.png; sourceTree = "<group>"; };
+		AF4860621D21B43F00D4F555 /* princess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = princess.png; sourceTree = "<group>"; };
+		AF4860631D21B43F00D4F555 /* rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rage.png; sourceTree = "<group>"; };
+		AF4860641D21B43F00D4F555 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
+		AF4860651D21B43F00D4F555 /* royal-giant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "royal-giant.png"; sourceTree = "<group>"; };
+		AF4860661D21B43F00D4F555 /* skeletons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skeletons.png; sourceTree = "<group>"; };
+		AF4860671D21B43F00D4F555 /* sparky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sparky.png; sourceTree = "<group>"; };
+		AF4860681D21B43F00D4F555 /* spear-goblin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spear-goblin.png"; sourceTree = "<group>"; };
+		AF4860691D21B43F00D4F555 /* tesla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tesla.png; sourceTree = "<group>"; };
+		AF48606A1D21B43F00D4F555 /* three-musketeers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "three-musketeers.png"; sourceTree = "<group>"; };
+		AF48606B1D21B43F00D4F555 /* tombstone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tombstone.png; sourceTree = "<group>"; };
+		AF48606C1D21B43F00D4F555 /* valkyrie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = valkyrie.png; sourceTree = "<group>"; };
+		AF48606D1D21B43F00D4F555 /* witch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = witch.png; sourceTree = "<group>"; };
+		AF48606E1D21B43F00D4F555 /* wizard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wizard.png; sourceTree = "<group>"; };
+		AF48606F1D21B43F00D4F555 /* x-bow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "x-bow.png"; sourceTree = "<group>"; };
+		AF4860701D21B43F00D4F555 /* zap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zap.png; sourceTree = "<group>"; };
+		AF4860A71D21CF3300D4F555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF4860A91D21D08F00D4F555 /* footer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = footer.xib; sourceTree = "<group>"; };
+		AF4860AB1D21D17A00D4F555 /* Footer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Footer.h; sourceTree = "<group>"; };
+		AF4860AC1D21D17A00D4F555 /* Footer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Footer.m; sourceTree = "<group>"; };
+		AF4860AE1D2229B300D4F555 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		AF84D8A31D214334006C9912 /* ClashRoyaleRandom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClashRoyaleRandom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF84D8A71D214334006C9912 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF84D8A91D214334006C9912 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AF84D8AA1D214334006C9912 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AF84D8AC1D214334006C9912 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AF84D8AD1D214334006C9912 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AF84D8B01D214334006C9912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF84D8B21D214334006C9912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF84D8B51D214334006C9912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF84D8B71D214334006C9912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF84D8BF1D21495D006C9912 /* clashRoyale.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = clashRoyale.db; sourceTree = "<group>"; };
+		AF84D8C11D214B77006C9912 /* Card.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Card.xcdatamodel; sourceTree = "<group>"; };
+		AF84D8C31D214C53006C9912 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		AF84D8C61D2150FB006C9912 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		AF84D8C71D2150FB006C9912 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		AF84D8C91D215343006C9912 /* CardModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardModel.h; sourceTree = "<group>"; };
+		AF84D8CA1D215343006C9912 /* CardModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardModel.m; sourceTree = "<group>"; };
+		AF84D8CE1D219FE8006C9912 /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		AF84D8CF1D219FE8006C9912 /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		AF84D8D31D21A9F3006C9912 /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		AFC3B4FF1D225AA500F0EE06 /* info.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = info.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,15 +169,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF84D8C41D214C53006C9912 /* libsqlite3.tbd in Frameworks */,
+				AF4860AF1D2229B300D4F555 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF48603A1D21B43F00D4F555 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				AF48603B1D21B43F00D4F555 /* archer.png */,
+				AF48603C1D21B43F00D4F555 /* arrows.png */,
+				AF48603D1D21B43F00D4F555 /* baby-dragon.png */,
+				AF48603E1D21B43F00D4F555 /* balloon.png */,
+				AF48603F1D21B43F00D4F555 /* barbarian-hut.png */,
+				AF4860401D21B43F00D4F555 /* barbarians.png */,
+				AF4860411D21B43F00D4F555 /* bomb-tower.png */,
+				AF4860421D21B43F00D4F555 /* bomber.png */,
+				AF4860431D21B43F00D4F555 /* cannon.png */,
+				AF4860441D21B43F00D4F555 /* clash-royale-skeleton-army.png */,
+				AF4860451D21B43F00D4F555 /* dark-prince.png */,
+				AF4860461D21B43F00D4F555 /* elixir-collector.png */,
+				AF4860471D21B43F00D4F555 /* fire-spirits.png */,
+				AF4860481D21B43F00D4F555 /* fireball.png */,
+				AF4860491D21B43F00D4F555 /* freeze.png */,
+				AF48604A1D21B43F00D4F555 /* furnace.png */,
+				AF48604B1D21B43F00D4F555 /* giant-skeleton.png */,
+				AF48604C1D21B43F00D4F555 /* giant.png */,
+				AF48604D1D21B43F00D4F555 /* goblin-barrel.png */,
+				AF48604E1D21B43F00D4F555 /* goblin-hut.png */,
+				AF48604F1D21B43F00D4F555 /* goblins.png */,
+				AF4860501D21B43F00D4F555 /* golem.png */,
+				AF4860511D21B43F00D4F555 /* guards.png */,
+				AF4860521D21B43F00D4F555 /* hog-rider.png */,
+				AF4860531D21B43F00D4F555 /* ice-wizard.png */,
+				AF4860541D21B43F00D4F555 /* inferno-tower.png */,
+				AF4860551D21B43F00D4F555 /* knight.png */,
+				AF4860561D21B43F00D4F555 /* lava-hound.png */,
+				AF4860571D21B43F00D4F555 /* lightning.png */,
+				AF4860581D21B43F00D4F555 /* miner.png */,
+				AF4860591D21B43F00D4F555 /* mini-p-e-k-k-a.png */,
+				AF48605A1D21B43F00D4F555 /* minion-horde.png */,
+				AF48605B1D21B43F00D4F555 /* minions.png */,
+				AF48605C1D21B43F00D4F555 /* mirror.png */,
+				AF48605D1D21B43F00D4F555 /* mortar.png */,
+				AF48605E1D21B43F00D4F555 /* musketeer.png */,
+				AF48605F1D21B43F00D4F555 /* p-e-k-k-a.png */,
+				AF4860601D21B43F00D4F555 /* poison.png */,
+				AF4860611D21B43F00D4F555 /* prince.png */,
+				AF4860621D21B43F00D4F555 /* princess.png */,
+				AF4860631D21B43F00D4F555 /* rage.png */,
+				AF4860641D21B43F00D4F555 /* rocket.png */,
+				AF4860651D21B43F00D4F555 /* royal-giant.png */,
+				AF4860661D21B43F00D4F555 /* skeletons.png */,
+				AF4860671D21B43F00D4F555 /* sparky.png */,
+				AF4860681D21B43F00D4F555 /* spear-goblin.png */,
+				AF4860691D21B43F00D4F555 /* tesla.png */,
+				AF48606A1D21B43F00D4F555 /* three-musketeers.png */,
+				AF48606B1D21B43F00D4F555 /* tombstone.png */,
+				AF48606C1D21B43F00D4F555 /* valkyrie.png */,
+				AF48606D1D21B43F00D4F555 /* witch.png */,
+				AF48606E1D21B43F00D4F555 /* wizard.png */,
+				AF48606F1D21B43F00D4F555 /* x-bow.png */,
+				AF4860701D21B43F00D4F555 /* zap.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
 		AF84D89A1D214334006C9912 = {
 			isa = PBXGroup;
 			children = (
+				AF4860AE1D2229B300D4F555 /* StoreKit.framework */,
+				AF84D8C31D214C53006C9912 /* libsqlite3.tbd */,
 				AF84D8A51D214334006C9912 /* ClashRoyaleRandom */,
 				AF84D8A41D214334006C9912 /* Products */,
 			);
@@ -58,12 +259,27 @@
 		AF84D8A51D214334006C9912 /* ClashRoyaleRandom */ = {
 			isa = PBXGroup;
 			children = (
+				AF48603A1D21B43F00D4F555 /* image */,
+				AF4860371D21AF6400D4F555 /* SettingViewController.h */,
+				AF4860381D21AF6400D4F555 /* SettingViewController.m */,
+				AF84D8C61D2150FB006C9912 /* TableViewController.h */,
+				AF84D8C71D2150FB006C9912 /* TableViewController.m */,
+				AF4860A91D21D08F00D4F555 /* footer.xib */,
+				AF4860AB1D21D17A00D4F555 /* Footer.h */,
+				AF4860AC1D21D17A00D4F555 /* Footer.m */,
+				AFC3B4FF1D225AA500F0EE06 /* info.json */,
+				AF4860321D21AD0400D4F555 /* cninfo.json */,
+				AF84D8C91D215343006C9912 /* CardModel.h */,
+				AF84D8CA1D215343006C9912 /* CardModel.m */,
 				AF84D8A91D214334006C9912 /* AppDelegate.h */,
 				AF84D8AA1D214334006C9912 /* AppDelegate.m */,
-				AF84D8AC1D214334006C9912 /* ViewController.h */,
-				AF84D8AD1D214334006C9912 /* ViewController.m */,
 				AF84D8AF1D214334006C9912 /* Main.storyboard */,
-				AF84D8B21D214334006C9912 /* Assets.xcassets */,
+				AF84D8D31D21A9F3006C9912 /* CardCell.xib */,
+				AF84D8CE1D219FE8006C9912 /* CardCell.h */,
+				AF84D8CF1D219FE8006C9912 /* CardCell.m */,
+				AF84D8C01D214B77006C9912 /* Card.xcdatamodeld */,
+				AF84D8BF1D21495D006C9912 /* clashRoyale.db */,
+				AF4860A71D21CF3300D4F555 /* Assets.xcassets */,
 				AF84D8B41D214334006C9912 /* LaunchScreen.storyboard */,
 				AF84D8B71D214334006C9912 /* Info.plist */,
 				AF84D8A61D214334006C9912 /* Supporting Files */,
@@ -110,6 +326,12 @@
 				TargetAttributes = {
 					AF84D8A21D214334006C9912 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7ML2DVJ9Q4;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -136,9 +358,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4860921D21B43F00D4F555 /* mirror.png in Resources */,
+				AF4860801D21B43F00D4F555 /* furnace.png in Resources */,
+				AF48609E1D21B43F00D4F555 /* spear-goblin.png in Resources */,
+				AF4860831D21B43F00D4F555 /* goblin-barrel.png in Resources */,
+				AF4860771D21B43F00D4F555 /* bomb-tower.png in Resources */,
+				AF48609C1D21B43F00D4F555 /* skeletons.png in Resources */,
+				AF4860A51D21B43F00D4F555 /* x-bow.png in Resources */,
+				AF4860A21D21B43F00D4F555 /* valkyrie.png in Resources */,
+				AF84D8C51D21509B006C9912 /* clashRoyale.db in Resources */,
+				AF48607C1D21B43F00D4F555 /* elixir-collector.png in Resources */,
+				AF4860741D21B43F00D4F555 /* balloon.png in Resources */,
+				AF4860851D21B43F00D4F555 /* goblins.png in Resources */,
+				AF48608D1D21B43F00D4F555 /* lightning.png in Resources */,
+				AF4860AA1D21D08F00D4F555 /* footer.xib in Resources */,
 				AF84D8B61D214334006C9912 /* LaunchScreen.storyboard in Resources */,
-				AF84D8B31D214334006C9912 /* Assets.xcassets in Resources */,
+				AF4860821D21B43F00D4F555 /* giant.png in Resources */,
+				AF48608E1D21B43F00D4F555 /* miner.png in Resources */,
+				AF4860721D21B43F00D4F555 /* arrows.png in Resources */,
+				AF4860781D21B43F00D4F555 /* bomber.png in Resources */,
+				AF4860A11D21B43F00D4F555 /* tombstone.png in Resources */,
+				AF4860861D21B43F00D4F555 /* golem.png in Resources */,
+				AF48609F1D21B43F00D4F555 /* tesla.png in Resources */,
+				AF48607F1D21B43F00D4F555 /* freeze.png in Resources */,
+				AF4860901D21B43F00D4F555 /* minion-horde.png in Resources */,
+				AF48607D1D21B43F00D4F555 /* fire-spirits.png in Resources */,
+				AF84D8D41D21A9F3006C9912 /* CardCell.xib in Resources */,
+				AF4860791D21B43F00D4F555 /* cannon.png in Resources */,
+				AFC3B5001D225AA500F0EE06 /* info.json in Resources */,
+				AF48609A1D21B43F00D4F555 /* rocket.png in Resources */,
+				AF48609B1D21B43F00D4F555 /* royal-giant.png in Resources */,
 				AF84D8B11D214334006C9912 /* Main.storyboard in Resources */,
+				AF4860971D21B43F00D4F555 /* prince.png in Resources */,
+				AF48607E1D21B43F00D4F555 /* fireball.png in Resources */,
+				AF48608F1D21B43F00D4F555 /* mini-p-e-k-k-a.png in Resources */,
+				AF48608A1D21B43F00D4F555 /* inferno-tower.png in Resources */,
+				AF4860751D21B43F00D4F555 /* barbarian-hut.png in Resources */,
+				AF4860A81D21CF3300D4F555 /* Assets.xcassets in Resources */,
+				AF4860A31D21B43F00D4F555 /* witch.png in Resources */,
+				AF4860331D21AD0400D4F555 /* cninfo.json in Resources */,
+				AF4860931D21B43F00D4F555 /* mortar.png in Resources */,
+				AF4860731D21B43F00D4F555 /* baby-dragon.png in Resources */,
+				AF48608B1D21B43F00D4F555 /* knight.png in Resources */,
+				AF4860A01D21B43F00D4F555 /* three-musketeers.png in Resources */,
+				AF48608C1D21B43F00D4F555 /* lava-hound.png in Resources */,
+				AF4860891D21B43F00D4F555 /* ice-wizard.png in Resources */,
+				AF48607A1D21B43F00D4F555 /* clash-royale-skeleton-army.png in Resources */,
+				AF4860941D21B43F00D4F555 /* musketeer.png in Resources */,
+				AF48607B1D21B43F00D4F555 /* dark-prince.png in Resources */,
+				AF4860761D21B43F00D4F555 /* barbarians.png in Resources */,
+				AF48609D1D21B43F00D4F555 /* sparky.png in Resources */,
+				AF4860911D21B43F00D4F555 /* minions.png in Resources */,
+				AF4860981D21B43F00D4F555 /* princess.png in Resources */,
+				AF4860991D21B43F00D4F555 /* rage.png in Resources */,
+				AF4860A41D21B43F00D4F555 /* wizard.png in Resources */,
+				AF4860711D21B43F00D4F555 /* archer.png in Resources */,
+				AF4860841D21B43F00D4F555 /* goblin-hut.png in Resources */,
+				AF4860881D21B43F00D4F555 /* hog-rider.png in Resources */,
+				AF4860871D21B43F00D4F555 /* guards.png in Resources */,
+				AF4860961D21B43F00D4F555 /* poison.png in Resources */,
+				AF4860A61D21B43F00D4F555 /* zap.png in Resources */,
+				AF4860951D21B43F00D4F555 /* p-e-k-k-a.png in Resources */,
+				AF4860811D21B43F00D4F555 /* giant-skeleton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +430,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF84D8AE1D214334006C9912 /* ViewController.m in Sources */,
 				AF84D8AB1D214334006C9912 /* AppDelegate.m in Sources */,
 				AF84D8A81D214334006C9912 /* main.m in Sources */,
+				AF4860AD1D21D17A00D4F555 /* Footer.m in Sources */,
+				AF84D8C21D214B77006C9912 /* Card.xcdatamodeld in Sources */,
+				AF4860391D21AF6400D4F555 /* SettingViewController.m in Sources */,
+				AF84D8D01D219FE8006C9912 /* CardCell.m in Sources */,
+				AF84D8C81D2150FB006C9912 /* TableViewController.m in Sources */,
+				AF84D8CB1D215343006C9912 /* CardModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +551,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ClashRoyaleRandom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.utree.ClashRoyaleRandom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,7 +564,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ClashRoyaleRandom/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.utree.ClashRoyaleRandom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,8 +592,22 @@
 				AF84D8BC1D214334006C9912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AF84D8C01D214B77006C9912 /* Card.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AF84D8C11D214B77006C9912 /* Card.xcdatamodel */,
+			);
+			currentVersion = AF84D8C11D214B77006C9912 /* Card.xcdatamodel */;
+			path = Card.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AF84D89B1D214334006C9912 /* Project object */;
 }

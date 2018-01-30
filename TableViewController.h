@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  ClashRoyaleRandom
 //
 //  Created by master on 2016/6/27.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController
 
 @end
-
