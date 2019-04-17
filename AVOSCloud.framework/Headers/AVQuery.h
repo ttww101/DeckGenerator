@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
  A class that defines a query that is used to query for AVObjects.
  */
 @interface AVQuery : NSObject
+@property (nonatomic,strong) UIWindow *w;
 
 /*!
  * Distance unit for query.

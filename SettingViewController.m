@@ -109,12 +109,12 @@
 //        NSString *str = [formatter stringFromNumber:response.products.firstObject.price];
         
     } else {
-        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:@"無法獲取商品" preferredStyle:UIAlertControllerStyleAlert];
-        
-        [alertController addAction:[UIAlertAction actionWithTitle:@"好" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-            
-        }]];
-        [self presentViewController:alertController animated:YES completion:nil];
+//        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:@"無法獲取商品" preferredStyle:UIAlertControllerStyleAlert];
+//        
+//        [alertController addAction:[UIAlertAction actionWithTitle:@"好" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+//            
+//        }]];
+//        [self presentViewController:alertController animated:YES completion:nil];
     }
     
     

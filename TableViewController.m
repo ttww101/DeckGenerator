@@ -109,13 +109,13 @@ void shuffle_1(int *arr, int n, int low, int up)
         int generateCount = [userDefault integerForKey:@"generateCount"];
         if (generateCount == 5) {
             [userDefault setInteger:0 forKey:@"generateCount"];
-            UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:@"贊助開發者可以讓 App 變的更好" preferredStyle:UIAlertControllerStyleAlert];
-            
-            [alertController addAction:[UIAlertAction actionWithTitle:@"好" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-                
-            }]];
-
-            [self presentViewController:alertController animated:YES completion:nil];
+//            UIAlertController *alertController = [UIAlertController alertControllerWithTitle:nil message:@"贊助開發者可以讓 App 變的更好" preferredStyle:UIAlertControllerStyleAlert];
+//            
+//            [alertController addAction:[UIAlertAction actionWithTitle:@"好" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+//                
+//            }]];
+//
+//            [self presentViewController:alertController animated:YES completion:nil];
         } else {
             [userDefault setInteger:generateCount+1 forKey:@"generateCount"];
             
@@ -197,6 +197,14 @@ void shuffle_1(int *arr, int n, int low, int up)
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIImage *bgImage = [UIImage imageNamed:@"war_2016x2688_back"];
+    UIImageView *bgImageView = [[UIImageView alloc] initWithImage:bgImage];
+//    [self.view addSubview:bgImageView];
+    self.tableView.backgroundView = bgImageView;
+//    bgImageView.translatesAutoresizingMaskIntoConstraints = NO;
+//    [[bgImageView.centerXAnchor constraintEqualToAnchor:self.view.centerXAnchor] setActive:YES];
+//    [[bgImageView.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor] setActive:YES];
+    
     NSString *path = [[NSBundle mainBundle] pathForResource:@"info" ofType:@"json"];
     
     //直接列印出Json格式的內容
@@ -254,9 +262,11 @@ void shuffle_1(int *arr, int n, int low, int up)
     
     CardModel *card = self.result[indexPath.row];
     cell.leftLabel.text = card.name;
+    cell.leftLabel.textColor = [UIColor whiteColor];
     cell.rightLabel.text = @"";
     cell.image.image = [UIImage imageNamed:card.imageName];
-    
+    cell.backgroundView.backgroundColor = [UIColor clearColor];
+    cell.backgroundColor = [UIColor clearColor];
     // Configure the cell...
     
     return cell;

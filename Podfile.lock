@@ -1,0 +1,25 @@
+PODS:
+  - JAnalytics (1.2.1):
+    - JCore (~> 1.2.0)
+  - JCore (1.2.6)
+  - JPush (3.1.2):
+    - JCore (~> 1.2.6)
+
+DEPENDENCIES:
+  - JAnalytics
+  - JPush
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - JAnalytics
+    - JCore
+    - JPush
+
+SPEC CHECKSUMS:
+  JAnalytics: a65f716b383ad470aacd63a7af1984746cc3e06f
+  JCore: cae516dd2bf1a73b578ce6e1065abd49e709e0f7
+  JPush: d0cead70ba223a6a3b52749899ebda830dfbc49a
+
+PODFILE CHECKSUM: f8ff9f543b7f4903253c145388f391ee6741e640
+
+COCOAPODS: 1.6.1
